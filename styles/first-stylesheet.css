@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   text-align: center; 
   margin:auto;
@@ -6,11 +7,43 @@ body {
 p {
   float:center; 
   color:#523128;}
+=======
+* {box-sizing: border-box;}
+body {
+  text-align: center; 
+  margin:auto;
+  background-color:#dddcd7;
+}
+
+header img{
+  top:0;
+  left:0;
+  width:100%;
+  max-height:10%;
+  display:inline-block;
+  position: fixed;
+}
+
+header nav{
+  margin-top: 5rem;
+}
+p {
+  font-family: 'Amatic SC', cursive;
+  color:#523128;
+}
+>>>>>>> master
 
 button {
   background-color:##8ba4ac; 
   width:auto;
+<<<<<<< HEAD
   background: url(images/Bee.jpg) no-repeat;
+=======
+}
+
+a:hover {
+  color:#7b221f;
+>>>>>>> master
 }
 
 .button-link{
@@ -24,7 +57,11 @@ button {
 a:hover {
   color:#7b221f;}
 /*you can't have any space between a and : and hover */
+nav ul li{
+  display: inline;
+}
 
+<<<<<<< HEAD
 a::first-letter{
   font-size: 1.5em;}
 
@@ -85,3 +122,33 @@ article img{
 figcaption {
   font-size:3em; 
   color:#e45e58}
+=======
+a{
+  text-decoration: none;
+  color: #5B4D43;
+}
+h1{border-bottom: 2px solid gray;
+  padding-bottom: 1rem;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;}
+a::first-letter{font-size: 1.5em;}
+article {
+  display:inline-block;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding:3rem; 
+  background-color:#8ba4ac;
+}
+h1{margin:0-auto; color:#523128;}
+h2{margin:0-auto; color:#523128;}
+.pictures {display:inline-block; border-radius: 80%; margin-left:auto; margin-right:auto; width:15rem;}
+footer {border: 2px solid #da7271; background-color:#392f4b; position:fixed; bottom:0; width:100%;}
+footer p{color:#dddcd7;}
+footer a {
+  color:#dddcd7;
+  font-family: 'Pacifico', normal;
+}
+link {color:#8ba4ac}
+article img{width:33%;}
+figcaption {font-size:3em; color:#e45e58}
+>>>>>>> master
