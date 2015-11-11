@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   text-align: center; 
   margin:auto;
@@ -8,6 +9,12 @@ p {
   color:#523128;}
 
 * {box-sizing: border-box;}
+=======
+* {
+  box-sizing: border-box;
+}
+
+>>>>>>> master
 body {
   text-align: center; 
   margin:auto;
@@ -24,11 +31,36 @@ header img{
 }
 
 header nav{
+<<<<<<< HEAD
   margin-top: 5rem;
 }
 p {
   font-family: 'Amatic SC', cursive;
   color:#523128;
+=======
+  margin-top: 9rem;
+}
+
+p {
+  font-family: 'Amatic SC', cursive;
+  color:#523128;
+  font-size:2em;
+}
+
+button {
+  background-color:##8ba4ac; 
+  width:auto;
+}
+
+a{
+  text-decoration: none;
+  color:#dddcd7;
+  font-family: 'Pacifico', normal;
+}
+
+a::first-letter{
+  font-size: 1.5em;
+>>>>>>> master
 }
 
 a:hover {
@@ -58,6 +90,7 @@ a:visited {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 a:link {
     text-decoration: none;
 }
@@ -72,6 +105,40 @@ h1{
 
 h2{margin:0-auto; 
   color:#523128;}
+=======
+nav ul li{
+  display: inline;
+}
+
+nav ul li i a{
+  font-family:'Amatic SC', cursive;
+  color:#523128;
+  font-size:2em;
+}
+h1{
+  border-bottom: 2px solid gray;
+  padding-bottom: 1rem;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  color:#523128;
+  font-family:'Cabin Condensed';
+}
+
+h2{
+  margin:0-auto; 
+  color:#523128;
+  font-family:'Cabin Condensed';
+}
+
+article {
+  display:inline-block;
+  width:85%;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  padding:3rem; 
+  background-color:#8ba4ac;
+}
+>>>>>>> master
 
 .pictures {
   display:inline-block; 
@@ -82,6 +149,7 @@ h2{margin:0-auto;
 
 footer {
   border: 2px solid #da7271; 
+<<<<<<< HEAD
   background-color:#392f4b}
 
 footer p{
@@ -144,3 +212,31 @@ link {color:#8ba4ac}
 article img{width:33%;}
 figcaption {font-size:3em; color:#e45e58}
 
+=======
+  background-color:#392f4b; 
+  position:fixed; 
+  bottom:0; 
+  width:100%;}
+
+footer p {
+  color:#dddcd7;
+}
+
+footer a {
+  color:#dddcd7;
+  font-family: 'Pacifico', normal;
+}
+link {
+  color:#8ba4ac
+}
+
+article img{
+  width:33%;
+}
+
+.project-one {
+  font-size:2em; 
+  color:#e45e58;
+  font-family: 'Pacifico', normal;
+}
+>>>>>>> master
