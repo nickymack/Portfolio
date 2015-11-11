@@ -1,25 +1,11 @@
-<<<<<<< HEAD
-body {
-  text-align: center; 
-  margin:auto;
-  background-color:#dddcd7;}
-
-p {
-  float:center; 
-  color:#523128;}
-
-* {box-sizing: border-box;}
-=======
 * {
   box-sizing: border-box;
 }
 
->>>>>>> master
 body {
   text-align: center; 
   margin:auto;
-  background-color:#dddcd7;
-}
+  background-color:#dddcd7;}
 
 header img{
   top:0;
@@ -31,14 +17,7 @@ header img{
 }
 
 header nav{
-<<<<<<< HEAD
   margin-top: 5rem;
-}
-p {
-  font-family: 'Amatic SC', cursive;
-  color:#523128;
-=======
-  margin-top: 9rem;
 }
 
 p {
@@ -60,27 +39,14 @@ a{
 
 a::first-letter{
   font-size: 1.5em;
->>>>>>> master
 }
 
 a:hover {
   color:#7b221f;
-
 }
 
-.button-link{
-    padding: 10px 15px;
-    height:auto;
-    width:auto;
-    border-radius:100%;
-    background: url(images/Bee.jpg);
-}
-
-a:hover {
-  color:#7b221f;}
-/*you can't have any space between a and : and hover */
-nav ul li{
-  display: inline;
+a:link {
+    text-decoration: none;
 }
 
 a::first-letter{
@@ -90,14 +56,13 @@ a:visited {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-a:link {
-    text-decoration: none;
+a::first-letter{
+  font-size: 1.5em;
 }
 
-article {
-  display:inline-block; 
-  margin:0-auto;}
+nav ul li{
+  display: inline;
+}
 
 h1{
   margin:0-auto; 
@@ -105,7 +70,7 @@ h1{
 
 h2{margin:0-auto; 
   color:#523128;}
-=======
+
 nav ul li{
   display: inline;
 }
@@ -115,6 +80,7 @@ nav ul li i a{
   color:#523128;
   font-size:2em;
 }
+
 h1{
   border-bottom: 2px solid gray;
   padding-bottom: 1rem;
@@ -138,7 +104,6 @@ article {
   padding:3rem; 
   background-color:#8ba4ac;
 }
->>>>>>> master
 
 .pictures {
   display:inline-block; 
@@ -149,7 +114,6 @@ article {
 
 footer {
   border: 2px solid #da7271; 
-<<<<<<< HEAD
   background-color:#392f4b}
 
 footer p{
@@ -179,10 +143,7 @@ article img{
 figcaption {
   font-size:3em; 
   color:#e45e58}
-=======
-=======
 
->>>>>>> master
 a{
   text-decoration: none;
   color: #5B4D43;
@@ -190,8 +151,10 @@ a{
 h1{border-bottom: 2px solid gray;
   padding-bottom: 1rem;
   border-bottom-left-radius: 40%;
-  border-bottom-right-radius: 40%;}
-a::first-letter{font-size: 1.5em;}
+  border-bottom-right-radius: 40%;
+  margin:0-auto; color:#523128;}
+
+
 article {
   display:inline-block;
   margin-top: 10rem;
@@ -199,24 +162,45 @@ article {
   padding:3rem; 
   background-color:#8ba4ac;
 }
-h1{margin:0-auto; color:#523128;}
-h2{margin:0-auto; color:#523128;}
-.pictures {display:inline-block; border-radius: 80%; margin-left:auto; margin-right:auto; width:15rem;}
-footer {border: 2px solid #da7271; background-color:#392f4b; position:fixed; bottom:0; width:100%;}
-footer p{color:#dddcd7;}
-footer a {
-  color:#dddcd7;
-  font-family: 'Pacifico', normal;
-}
-link {color:#8ba4ac}
-article img{width:33%;}
-figcaption {font-size:3em; color:#e45e58}
 
-=======
+h2{
+  margin:0-auto; 
+  color:#523128;}
+
+.pictures {
+  display:inline-block; 
+  border-radius: 80%; 
+  margin-left:auto; 
+  margin-right:auto; 
+  width:15rem;}
+
+footer {
+  border: 2px solid #da7271; 
   background-color:#392f4b; 
   position:fixed; 
   bottom:0; 
   width:100%;}
+
+footer p{
+  color:#dddcd7;
+}
+
+footer a {
+  color:#dddcd7;
+  font-family: 'Pacifico', normal;
+}
+
+link {
+  color:#8ba4ac
+}
+
+article img{
+  width:33%;
+}
+
+figcaption {
+  font-size:3em; 
+  color:#e45e58}
 
 footer p {
   color:#dddcd7;
@@ -226,6 +210,7 @@ footer a {
   color:#dddcd7;
   font-family: 'Pacifico', normal;
 }
+
 link {
   color:#8ba4ac
 }
@@ -239,4 +224,3 @@ article img{
   color:#e45e58;
   font-family: 'Pacifico', normal;
 }
->>>>>>> master
