@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-
 body {
   text-align: center; 
   margin:auto;
@@ -71,7 +69,6 @@ h1{
 
 h2{margin:0-auto; 
   color:#523128;}
-=======
 
 body {
   text-align: center; 
@@ -117,8 +114,6 @@ a:hover {
   color:#7b221f;
 }
 /*you can't have any space between a and : and hover */
->>>>>>> master
-
 nav ul li{
   display: inline;
 }
@@ -128,10 +123,7 @@ nav ul li i a{
   color:#523128;
   font-size:2em;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> master
 h1{
   border-bottom: 2px solid gray;
   padding-bottom: 1rem;
@@ -165,7 +157,6 @@ article {
 
 footer {
   border: 2px solid #da7271; 
-<<<<<<< HEAD
   background-color:#392f4b}
 
 footer p{
@@ -228,14 +219,11 @@ h2{
 
 footer {
   border: 2px solid #da7271; 
-=======
->>>>>>> master
   background-color:#392f4b; 
   position:fixed; 
   bottom:0; 
   width:100%;}
 
-<<<<<<< HEAD
 footer p{
   color:#dddcd7;
 }
@@ -257,8 +245,6 @@ figcaption {
   font-size:3em; 
   color:#e45e58}
 
-=======
->>>>>>> master
 footer p {
   color:#dddcd7;
 }
@@ -267,15 +253,11 @@ footer a {
   color:#dddcd7;
   font-family: 'Pacifico', normal;
 }
-<<<<<<< HEAD
+
 
 link {
   color:#8ba4ac
-=======
-link {
-  color:#8ba4ac;
->>>>>>> master
-}
+    
 
 article img{
   width:33%;
@@ -285,8 +267,4 @@ article img{
   font-size:2em; 
   color:#e45e58;
   font-family: 'Pacifico', normal;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> master
+
